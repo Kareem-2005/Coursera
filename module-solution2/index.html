@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+*{
+	box-sizing: border-box;
+	font-family: Arial, Helvetica,  sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+
+	margin: auto;
+	clear:left;
+	width: 100%;
+}
+
+h1 {
+
+	text-align: center;
+	padding:40px 20px 20px 20px;
+}
+
+.container div{
+
+	background: lightgrey;
+	border:3px solid black;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+
+h2{
+	float:right;
+	border-left:2px solid black;
+	border-bottom:2px solid black;
+	font-size: 18px;
+	font-weight: 600;
+	margin-top: -1px;
+	margin-right: -1px;
+}
+
+.end{
+
+	clear: left;
+
+}
+
+.text{
+	clear: right;
+	padding: 10px 20px 10px 20px;
+
+}
+.chicken{
+	padding:3px 20px 3px 20px;
+	background: #ffb3b3;
+
+}
+
+.beef{
+	padding:3px 30px 3px 30px;
+	background: #b30000;
+	color:white;
+}
+
+.sushi{
+	padding:3px 25px 3px 25px;
+	background: #e6e600;
+}
+
+.info{
+
+	text-align: center;
+	margin-top: 40px;
+}
+
+.col-md-4 {
+	
+	width: 20%;
+
+}
+
+@media (min-width: 992px){
+
+	.col-md-4 {
+	
+	width: 30%;
+	float:left;
+	margin-left: 20px;
+
+     }
+}
+
+@media (min-width: 768px ) and (max-width: 991px){
+
+	.col-sm-6 {
+	
+	width: 45%;
+	float:left;
+	margin-left: 20px;
+
+     }
+
+     .col-sm-12 {
+	
+	width: 92.2%;
+	float:left;
+	margin-left: 20px;
+
+     }
+}
+
+@media (max-width: 768px){
+
+	.col-xs-12 {
+	
+	width: 92%;
+	float:left;
+	margin-left: 20px;
+
+     }
+
+    
+}
+    </style>
+</head>
+<body>
+    	
+<div class="container">
+
+    <h1>Our Menu</h1>
+    
+        <div class="col-md-4 col-sm-6 col-xs-12 ">
+        
+        <h2 class="chicken">Chicken</h2>
+    
+        <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. In omnis hic perferendis, velit soluta praesentium consequuntur quas distinctio molestias dolor architecto culpa ipsam et quisquam voluptatum.</p>
+    
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+        
+        <h2 class="beef">Beef</h2>
+        
+        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error sed id quas rerum nobis. Eum magni est autem. Eius consequatur culpa in aspernatur. Corrupti enim quos delectus quasi at obcaecati!</p>
+    
+        </div>
+        <div class="col-md-4 col-sm-12 col-xs-12">
+        
+        <h2 class="sushi">Sushi</h2>	
+        
+        <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium sit minus fugiat, vero dicta accusamus ea ut eos nam, amet perspiciatis eveniet. Debitis deserunt ea porro ipsam nisi, modi veniam.</p>
+        </div>
+        <section class="end"></section>
+    </div>
+    
+</body>
+
+</html>
